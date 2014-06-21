@@ -9,6 +9,9 @@ class ProgramTable {
 public:
   ProgramTable(Header & header);
   bool Init();
+  
+protected:
+  Header & header;
 };
 
 }

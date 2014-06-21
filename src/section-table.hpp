@@ -9,6 +9,9 @@ class SectionTable {
 public:
   SectionTable(Header & header);
   bool Init();
+  
+protected:
+  Header & header;
 };
 
 }

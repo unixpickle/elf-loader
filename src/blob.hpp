@@ -1,7 +1,7 @@
 #ifndef __ELF_BLOB_HPP__
 #define __ELF_BLOB_HPP__
 
-#include <cstdint>
+#include <cstddef>
 
 namespace ELF {
 

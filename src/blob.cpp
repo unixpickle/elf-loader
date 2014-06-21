@@ -2,14 +2,14 @@
 
 namespace ELF {
 
-Blob(const char * _data, size_t _length) : data(_data), length(_length) {
+Blob::Blob(const char * _data, size_t _length) : data(_data), length(_length) {
 }
 
-const char * GetData() const {
+const char * Blob::GetData() const {
   return data;
 }
 
-size_t GetLength() const {
+size_t Blob::GetLength() const {
   return length;
 }
 

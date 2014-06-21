@@ -7,8 +7,13 @@ class File;
 
 class Header {
 public:
-  Header(File & file);
+  Header(const File & file);
   bool Init();
+  
+  const File & GetFile() const;
+  
+protected:
+  const File & file;
 };
 
 }

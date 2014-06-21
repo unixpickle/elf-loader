@@ -1,6 +1,7 @@
 #include "section-table.hpp"
 #include "program-table.hpp"
 #include "header.hpp"
+#include "blob.hpp"
 
 namespace ELF {
 
